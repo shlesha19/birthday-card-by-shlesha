@@ -1,3 +1,8 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
 .head {
 text-align: center;
 color: black;
@@ -9,6 +14,4 @@ body {
   background-image: url("https://raw.githubusercontent.com/shlesha19/birthday-card-by-shlesha/master/balloon-5966383_1280.png");
 }
 
-.book__wrapper {
 
-}
