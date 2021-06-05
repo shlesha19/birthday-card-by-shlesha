@@ -11,11 +11,11 @@ font-size: 65px;
 }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/shlesha19/birthday-card-by-shlesha/master/balloon-5966383_1280.png");
+ /* background-image: url("https://raw.githubusercontent.com/shlesha19/birthday-card-by-shlesha/master/balloon-5966383_1280.png");*/
   display: flex;
   justify-content: center;
   align-items: center;
-
+ background:linear-gradient(purple,aqua);
 }
 
 .container {
@@ -28,31 +28,6 @@ body {
   padding: 30px;
 }
 
-.container .card {
-  position: relative;
-  max-width: 300px;
-  height: 420px;
-  background: aqua;
-  margin: 30px;
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 5px 220px rgba(0,0,0,0.5) ;
-  transition: 0.3s ease-in-out;
-}
-
-.container .card:hover {
-   height: 420px;
-}
-
-.container .card .imgbox {
-  position: relative;
-  width: 250px;
-  height: 260px;
-
-}
-
-.container .card .imgbox img{
-  max-width: 100%;
-  border-radius: 4px;
+.card {
+  
 }
